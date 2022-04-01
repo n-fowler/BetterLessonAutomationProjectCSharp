@@ -1,0 +1,11 @@
+﻿Add datafields with automation id's to all objects under test
+Do this for speed and ease of automation so that we can avoid the xpath trap
+Add date selection fields in addition to drag and drop
+Drag and drop can be flaky
+Header Image is too large
+Center the description text
+Page errors out when submitting a duplicate room request
+The errors provided when submitting a blank form aren't descriptive enough
+The errors also have a randomized order that makes it hard to tell what they go to
+No way to delete a booked room unless you delete the room
+Booked rooms persist despite the database resetting every 10 minutes

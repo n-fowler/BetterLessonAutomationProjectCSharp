@@ -1,0 +1,20 @@
+﻿Using a test plan template is antiquated.  Most companies use cloud based test tracking software.
+The goal is to automate your common regression testing and have it run with every build.
+The test plans attached to these builds are seldom viewed once automated.
+A properly written automated test has descriptive errors and commenting and doesn't require viewing the test plan.
+
+Common tools I recommend are Zephyr, Microsoft Test Case Manager, or Test Rail.
+Tests should follow a pattern of describing what you're trying to do and what the step result should be.
+This should be fairly granular and steps should be simple.  No paragraphs if possible.
+
+Small Example of how it looks (I'm most familiar with Microsoft Test Case Manager):
+Step Number | Step Description                                                | Step Result                   | Status
+1           | Enter Text "testfirst testlast" for Contact form name           | the text was entered          | PASS
+2           | Enter Text "test@test.com" for Contact form email               | the text was entered          | PASS
+3           | Enter Text "1-234-567-8901" for Contact form phone              | the text was entered          | PASS
+4           | Enter Text "testsubject" for Contact form subject               | the text was entered          | PASS
+5           | Enter Text "Lorem ipsum dolor sit amet,                         |                               |
+            | consectetur adipiscing elit, sed do eiusmod tempor incididunt   |                               |
+            | ut labore et dolore magna aliqua." for Contact form name        | the text was entered          | PASS
+6           | Click "Submit"                                                  | the form was submitted        | PASS
+            |                                                                 | {Success Data would be added} |                           |
