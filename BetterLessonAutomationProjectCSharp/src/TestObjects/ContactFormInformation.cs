@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BetterLessonAutomationProjectCSharp.src.TestObjects
+﻿namespace BetterLessonAutomationProjectCSharp.src.TestObjects
 {
     public class ContactFormInformation
     {
